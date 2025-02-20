@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    
+    display: flex;
+    align-items: center;
+}
+.nav-social{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-social li{
+    margin-right: 10px;
+}
+.nav-social li a{
+    text-decoration: none;
+}
+.nav-social li a i{
+    color: black;
+}
