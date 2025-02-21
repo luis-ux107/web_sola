@@ -1,15 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+
+html,body{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
 }
 .nav{
     
     display: flex;
     align-items: center;
+    border:1px solid black;
+    background: #505050;
+    
+}
+.nav-superior{
+    background: #505050;;
+}
+.nav .nav-item a{
+    color:white;
+    font-size: 12px;
+}
+.nav .nav-item a i{
+    color:#FF8740;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.sola{
+    font-weight: 600;
+    font-size: 35px;
+    color:#FF8740;
 }
 .nav-social{
     display: flex;
     list-style: none;
+    border: 1px solid black;
     
 }
 .nav-social li{
@@ -17,7 +44,40 @@
 }
 .nav-social li a{
     text-decoration: none;
+    
 }
 .nav-social li a i{
-    color: black;
+    color: #9B9B9B;
+    
 }
+
+
+/*RESPONSIVE*/
+@media(min-width:576px){
+    body{
+        background:blueviolet;
+    }
+}
+@media(min-width:768px){
+    body{
+        background:orange;
+    }
+    .nav-social{
+        margin-left: 0;
+    }
+    
+}
+@media(min-width:992px){
+    body{
+        background:green;
+    }
+}
+
+@media(min-width:1200px){
+    body{
+        background:red;
+    }
+}
+
+
+
